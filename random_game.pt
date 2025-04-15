@@ -1,0 +1,14 @@
+use "std"
+
+num = rand(0, 100)
+
+echo(num)
+
+print "Number: "
+user_num = readln()
+
+if num == user_num {
+    echo("VERNO")
+} else {
+    echo("NEVERNO")
+}
